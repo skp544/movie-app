@@ -1,10 +1,13 @@
 import "./home.scss";
-import { HeroBanner } from "../";
+import { HeroBanner, Popular, TopRated, Trending } from "../";
 
 const Home = () => {
   return (
     <div className="homepage">
       <HeroBanner />
+      <Trending />
+      <Popular />
+      <TopRated />
     </div>
   );
 };
