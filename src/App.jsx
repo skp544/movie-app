@@ -19,7 +19,7 @@ const App = () => {
   const fetchApiConfig = () => {
     fetchDataFromApi("/configuration")
       .then((res) => {
-        console.log(res);
+        // console.log(res);
 
         const url = {
           backdrop: res?.images?.secure_base_url + "original",
@@ -48,7 +48,7 @@ const App = () => {
     const data = await Promise.all(promises);
 
     data.map(({ genres }) => {
-      return genres.map((item) => (allGenres[item.id] = item));
+      return genres?.map((item) => (allGenres[item.id] = item));
     });
 
     dispatch(getGenres(allGenres));

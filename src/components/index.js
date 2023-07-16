@@ -6,6 +6,9 @@ import SwitchTab from "./SwitchTab/SwitchTab";
 import Carousel from "./Carousel/Carousel";
 import CircleRating from "./CircleRating/CircleRating";
 import Genres from "./Genres/Genres";
+import VideoPopup from "./VideoPopup/VideoPopup";
+import Spinner from "./Spinner/Spinner";
+import MovieCard from "./MovieCard/MovieCard";
 
 export {
   Footer,
@@ -16,4 +19,7 @@ export {
   Carousel,
   CircleRating,
   Genres,
+  VideoPopup,
+  Spinner,
+  MovieCard,
 };

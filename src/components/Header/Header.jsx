@@ -52,7 +52,7 @@ const Header = () => {
   };
 
   const searchQueryHandler = (e) => {
-    console.log("enter");
+    // console.log("enter");
 
     if (e.key === "Enter" && query.length > 0) {
       navigate(`/search/${query}`);
